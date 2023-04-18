@@ -1,7 +1,7 @@
 import * as admin from 'firebase-admin';
-import * as chatgpt from './chatgpt';
+import * as between from './between';
 
 // initialize
 admin.initializeApp();
 
-export { chatgpt };
+export { between };
